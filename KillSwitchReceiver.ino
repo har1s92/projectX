@@ -2,7 +2,8 @@
 #include <VirtualWire.h>
 
 //Define Pins
-const int ledPin = 8;
+const int ledPin = 8; //Need to define for power pin
+
 const int rxPin = 11;
 int cnt = 0;
 
