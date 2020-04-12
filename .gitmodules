@@ -1,0 +1,6 @@
+[submodule "MissionPlanner"]
+	path = MissionPlanner
+	url = https://github.com/zwright14/MissionPlanner.git
+[submodule "ardupilot"]
+	path = ardupilot
+	url = https://github.com/zwright14/ardupilot.git
