@@ -23,12 +23,17 @@ n = 0
 
 MAV.doCommand(MAVLink.MAV_CMD.DO_SET_SERVO, servo, pwm, 0, 0, 0, 0, 0)
 
-print 'Gripper Tested'
+MAV.doCommand(MAVLink.MAV_CMD.DO_SET_SERVO, servo, pwm, 0, 0, 0, 0, 0)
 
+print 'Gripper Tested'
+s
 Script.Sleep(1000)
 
+MAV.doCommand(MAVLink.MAV_CMD.DO_SET_SERVO, servo, pwm, 0, 0, 0, 0, 0)
 
 MAV.doCommand(MAVLink.MAV_CMD.DO_SET_SERVO, servo, pwm, 0, 0, 0, 0, 0)
+s
+print 'Wrist Tested'
 
 Script.Sleep(1000)
 
