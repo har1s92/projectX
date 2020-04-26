@@ -1,0 +1,36 @@
+
+
+ - Connect broad to raspberrypi 
+
+The following are scripts to run in order to set up streaming program (SDR to SDR)
+
+
+ - sudo apt install git 
+
+ - sudo git clone https://github.com/tomojitakasu/RTKLIB.git
+
+ - cd RTKLIB/app/str str/gcc
+
+ - cd make 
+
+ - sudo mkdir rtkscript
+
+ - sudo cp /home/pi/RTKLIB/app/str2str/gcc/str2str /rtkscript
+
+ - cd /rtkscript
+
+ - sudo nano str2str.sh
+
+Paste following...
+
+
+/rtkscript/str2str - in serial://ttyUSB0:115200:8:n:1: -out tcpsvr://:2222
+exit 0
+
+
+
+ - sudo chmod 777 str2str.sh
+
+ - sudo ./str2str.sh     #start base station
+
+

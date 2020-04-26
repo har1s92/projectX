@@ -1,0 +1,27 @@
+UCenter Instructions
+
+ - Connect TX pin to RX pin 
+
+ - Download UCenter
+
+ - Change board through connect settings (ex: COM4) 
+
+ - Successful connection should show green flashing 
+
+ - Press F9 to open configuration editor
+
+ - Save current confirguartion - tools - reciever configuration - transfer GNSS to file
+
+ - Configure F9P set to default by UBX - CFG - CFG - Set radio button to default config, then press senf
+
+ - Go to MSG, select each message and check correcsponding post (ex: UART1 check to on and 1) \
+
+ - NAV5 change dynamic model from portable to staionary 
+
+ - configure PRT - set protocl in and protocol out to none. - Set the second serial port and set the protocl in to none. Also change the baudrate. 
+
+ - Go to TMODE3 set mode to survey-in. We can also make this a fixed position for faster correction data. 
+
+ - Save all configurations permanetley. - CFG - Save current configuations - select everything 
+
+
