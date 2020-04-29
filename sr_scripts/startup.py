@@ -1,6 +1,7 @@
 '''
 Start Up Script to test servos for movement of the mechanical arm. 
 All 6 servos will be rotates and return to their original position.
+The Gripper will open and close
 This scrip will execute all tests in ___ seconds
 
 
